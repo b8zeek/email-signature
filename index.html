@@ -9,16 +9,16 @@
         @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans&display=swap');
 
         body {
             margin: 0;
             padding: 20px;
         }
         .bg {
-            width: 350px;
-            height: 120px;
+            width: 320px;
             border-radius: 10px;
-            background-image: linear-gradient(to right, rgb(1, 38, 70), rgba(0, 4, 40, 0.6), rgba(0, 4, 40, 0));
+            background-image: linear-gradient(to right, rgb(1, 38, 70), rgb(1, 38, 70), rgba(0, 4, 40, 0.6), rgba(0, 4, 40, 0));
         }
         .photo-container {
             height: 100%;
@@ -48,14 +48,23 @@
             padding: 10px 0;
         }
         .name {
+            line-height: 32px;
             font-family: 'Smooch', cursive;
             font-size: 32px;
             border-radius: 3px 0 0 3px;
-            padding: 0 10px;
-            background-color: white;
+            padding: 0 5px;
+            color: rgb(1, 38, 70);
+            background-image: linear-gradient(to right, rgba(255, 255, 255, .5), rgba(255, 255, 255, 1));
+            margin-bottom: 5px;
         }
         .title {
-            font-size: 12px;
+            line-height: 18px;
+            font-family: 'Alumni Sans', sans-serif;
+            font-size: 18px;
+            color: white;
+        }
+        .liknedin-logo {
+            height: 25px;
         }
     </style>
 </head>
@@ -65,8 +74,9 @@
             <img class="profile-photo" src="https://media-exp1.licdn.com/dms/image/C5603AQFqqGJvXsYDxw/profile-displayphoto-shrink_800_800/0/1634316489159?e=1651708800&v=beta&t=8gHxBGv_v3kf1IDgtVI2mF53EnvQ8xP-G6eba19ObjE"/>
         </div><div class="text">
             <h1 class="name">Mirko Basic</h1>
-            <h2 class="title">Software Engineer & Designer</h2>
-            <h2 class="title">Full-Stack Developer | React | Node</h2>
+            <h2 class="title">Full-Stack Software Engineer</h2>
+            <h2 class="title">React | Node</h2>
+            <img class="liknedin-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png?20140125013055" />
         </div>
     </div>
 </body>
