@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/1487ac8b2b.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
@@ -17,7 +18,7 @@
         }
         .bg {
             width: 320px;
-            border-radius: 10px;
+            border-radius: 10px 0 0 10px;
             background-image: linear-gradient(to right, rgb(1, 38, 70), rgb(1, 38, 70), rgba(0, 4, 40, 0.6), rgba(0, 4, 40, 0));
         }
         .photo-container {
@@ -37,7 +38,8 @@
         .profile-photo {
             width: 100px;
             height: 100px;
-            border-radius: 10px;
+            display: block;
+            border-radius: 5px;
         }
         h1, h2 { margin: 0; }
         .text {
@@ -57,14 +59,25 @@
             background-image: linear-gradient(to right, rgba(255, 255, 255, .5), rgba(255, 255, 255, 1));
             margin-bottom: 5px;
         }
+        .fa-linkedin {
+            font-size: 24px;
+            margin: 5px 0 0 10px;
+        }
         .title {
             line-height: 18px;
-            font-family: 'Alumni Sans', sans-serif;
             font-size: 18px;
+            font-family: 'Alumni Sans', sans-serif;
+            color: white;
+            margin-bottom: 5px;
+        }
+        .contact-details {
+            line-height: 16px;
+            font-size: 16px;
+            font-family: 'Alumni Sans', sans-serif;
             color: white;
         }
-        .liknedin-logo {
-            height: 25px;
+        .fa-envelope, .fa-phone {
+            font-size: 14px;
         }
     </style>
 </head>
@@ -73,10 +86,10 @@
         <div class="photo-container">
             <img class="profile-photo" src="https://media-exp1.licdn.com/dms/image/C5603AQFqqGJvXsYDxw/profile-displayphoto-shrink_800_800/0/1634316489159?e=1651708800&v=beta&t=8gHxBGv_v3kf1IDgtVI2mF53EnvQ8xP-G6eba19ObjE"/>
         </div><div class="text">
-            <h1 class="name">Mirko Basic</h1>
+            <h1 class="name">Mirko Basic <span class="fa-brands fa-linkedin"></i\span></h1>
             <h2 class="title">Full-Stack Software Engineer</h2>
-            <h2 class="title">React | Node</h2>
-            <img class="liknedin-logo" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png?20140125013055" />
+            <h2 class="contact-details"><span class="fa-solid fa-envelope"></span> bejzik8@gmail.com</h2>
+            <h2 class="contact-details"><span class="fa-solid fa-phone"></span> +381 64 215 83 83</h2>
         </div>
     </div>
 </body>
